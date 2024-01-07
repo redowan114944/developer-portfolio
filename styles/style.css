@@ -51,9 +51,10 @@ nav a {
 /* header section */
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    /* height: 837px; */
 }
 
 .banner {
@@ -64,11 +65,11 @@ nav a {
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .banner .profile-pic {
-    width: 500px;
+    width: 700px;
 }
 
 .banner-greeting {
@@ -212,18 +213,19 @@ footer {
     text-align: left;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
-    background:#FFF;
+    background: #FFF;
     border: 0;
     width: 100%;
 }
 
-.social-link a{
+.social-link a {
     margin-right: 24px;
 }
